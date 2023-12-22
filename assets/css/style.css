@@ -339,7 +339,7 @@ nav li a:hover {
 }
 
 /* tablets and small laptops breakpoint */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 992px) {
     h1 {
         font-size: 4vw;
     }
@@ -397,71 +397,4 @@ nav li a:hover {
     #contacts {
         padding-left: 0;
     }
-}
-
-/* desktops breakpoint */
-@media only screen and (min-width: 992px) {
-h1 {
-        font-size: 2vw;
-}
-
-#hero {
-        background-image: url("../images/hero-section.jpg");
-        height: 650px;
-}
-
-#hero h2 {
-    margin-bottom: 3vw;
-    margin-right: 3vw;
-}
-
-#about-me, #work, #contact-me {
-    flex-direction: row;
-}
-
-#about-me h2, #work h2 {
-    font-size: 2vw;
-    text-align: right;
-}
-
-
-#first-app {
-    flex: 98%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    filter: grayscale(100%);
-}
-
-#project-2, #project-3, #project-4, #project-5 {
-    width: 48%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    filter: grayscale(100%);
-}
-
-#apps .project-title {
-    padding-right: 0;
-}
-
-#contact-me {
-    padding: 2vw 2vw 2vw 0;
-    text-align: right;
-}
-
-#apps h2 {
-    text-align: left;
-}
-
-#contact-me h2 {
-    font-size: 2vw;
-}
-
-#contacts {
-    padding: 2vw;
-}
-
-#about-me p, #apps, #contacts {
-    border-left: 2px solid var(--dark);
-}
-
 }
