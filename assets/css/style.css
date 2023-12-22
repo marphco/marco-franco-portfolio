@@ -266,11 +266,11 @@ nav li a:hover {
     color: var(--link-hover);
 }
 
-/* small devices media breakpoint */
+/* 600px media queries breakpoint */
 @media only screen and (max-width: 600px) {
     #hero {
         height: 670px;
-        background-image: url("../images/hero-section-600px.jpg");
+        background-image: url("../images/hero-section2.jpg");
     }
 
     #hero h2 {
@@ -293,7 +293,7 @@ nav li a:hover {
     }
 
     nav {
-        padding-top: 6vw;
+        padding-top: 3vw;
         flex-direction: column;
     }
 
@@ -338,14 +338,14 @@ nav li a:hover {
     }
 }
 
-/* tablets and small laptops breakpoint */
+/* 992px media queries breakpoint */
 @media only screen and (max-width: 992px) {
     h1 {
-        font-size: 4vw;
+        font-size: 6vw;
     }
     
     #hero {
-        background-image: url("../images/hero-section-768px.jpg");
+        background-image: url("../images/hero-section3.jpg");
     }
 
     #hero h2 {
@@ -358,7 +358,7 @@ nav li a:hover {
     }
 
     #about-me h2, #work h2 {
-        font-size: 3vw;
+        font-size: 5vw;
         text-align: left;
     }
 
@@ -371,7 +371,7 @@ nav li a:hover {
     }
     
     #project-2, #project-3, #project-4, #project-5 {
-        width: 47%;
+        width: 100%;
         margin-right: 3%;
         margin-bottom: 3%;
         filter: none;
